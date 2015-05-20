@@ -1,0 +1,12 @@
+package com.shreyharia.chess.gamelogic.pieces;
+
+public class Knight extends Piece {
+
+    public Knight(boolean color) {
+        super(color,"N");
+    }
+
+    public boolean isRechable(String msg) {
+        return true;
+    }
+}
